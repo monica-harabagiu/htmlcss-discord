@@ -172,28 +172,92 @@ h5 {
 
 
 footer{
-    background-color: #121212;
+    background-color: #23272A;
     color: white;
+    padding-block: 50px;
+}
+
+h4 {
+    color: #7289DA;
+    margin-bottom: 10px;
+}
+
+.title-footer {
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 footer ul li{
     list-style-type: none;
 }
 
+footer a {
+    color: white;
+    font-size: 14px;
+}
+
 footer .container{
     display: flex;
-    /* justify-content: space-between; */
 }
 
-footer .container > div{
-    flex-grow: 1;
+.footer-social {
+    flex-basis: 20%;
 }
 
-footer .container>div:first-child{
-    flex-grow: 2;
+.footer-social ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social span {
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.footer-social span::before {
+    background-image: url("/assets/img/ita.png");
+    background-size: contain;
+    display: inline-block;
+    width: 18px;
+    height: 13px;
+    content: "";
+    margin-right: 5px;
+}
+
+.footer-social span::after {
+    content: "\e5cf";
+    font-family: Material Symbols Outlined;
+}
+
+.menu-footer {
+    flex-basis: 80%;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 0px;
+}
+
+.menu-footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #8EA1E1;
+    margin: 30px auto;
 }
 
 footer .footer-login{
     display: flex;
     justify-content: space-between;
+}
+
+.footer-login a {
+    background-color: #8EA1E1;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 14px;
 }
