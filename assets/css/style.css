@@ -12,9 +12,15 @@ a{
     text-decoration: none;
 }
 
+p {
+    line-height: 140%;
+}
+
 header{
     padding-block: 20px;
     background-image: url('/assets/img/jumbo.png');
+    background-size: cover;
+    background-position: center;
     padding-bottom: 50px;
 }
 
@@ -28,7 +34,7 @@ header nav{
 
 header nav ul{
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 
 header nav ul li{
@@ -38,6 +44,7 @@ header nav ul li{
 
 header nav ul li a {
     color: white;
+    font-size: 14px;
 }
 
 header nav > a {
@@ -45,14 +52,46 @@ header nav > a {
     color: #23272A;
     border-radius: 25px;
     padding: 10px 20px;
+    font-size: 14px;
 }
 
 #cta{
-    background-color: lightpink;
-    width: 60%;
-    margin: 50px auto 0 auto;
-
+    width: 45%;
+    margin: 100px auto 40px auto;
+    color: white;
     text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#cta p {
+    margin-block: 30px;
+}
+
+#cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#cta-buttons button {
+    border-radius: 25px;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    background-color: white;
+}
+
+#cta-buttons button:first-child::before {
+    content: "\2193";
+    margin-right: 10px;
+}
+
+#cta-buttons button:last-child {
+    background-color: #121212;
+    color: white;
 }
 
 .container{
