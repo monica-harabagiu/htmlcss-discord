@@ -105,7 +105,8 @@ h2 {
 }
 
 section{
-    padding-block: 100px;
+    position: relative;
+    padding-block: 150px;
 }
 
 section .img-text{
@@ -260,4 +261,18 @@ footer .footer-login{
     border-radius: 25px;
     padding: 10px 20px;
     font-size: 14px;
+}
+
+/* SVG WAVES BONUS */
+
+.wave-1 {
+    position: absolute;
+    bottom: 0;
+    color: #F6F6F6;
+}
+
+.wave-2 {
+    position: absolute;
+    bottom: 0;
+    color: white;
 }
