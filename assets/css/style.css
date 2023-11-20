@@ -117,6 +117,11 @@ section .img-text{
     margin-bottom: 20px;
 }
 
+.img-on-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
 section .img-text figure{
     flex-basis: 70%;
 }
@@ -126,7 +131,7 @@ section .img-text .section-text{
 }
 
 section.discord-services:nth-child(even){
-    background-color: lightgray;
+    background-color: #F6F6F6;
 }
 
 section.discord-services:nth-child(even) .img-text figure{
@@ -135,6 +140,34 @@ section.discord-services:nth-child(even) .img-text figure{
 
 section.discord-services:last-child{
     text-align: center;
+}
+
+section.discord-services:last-child p {
+    width: 70%;
+    margin: 20px auto;
+}
+
+h5 {
+    font-size: 20px;
+    background-image: url("/assets/img/stars.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    padding-block: 20px;
+}
+
+.discord-services button {
+    border-radius: 25px;
+    padding: 10px 30px;
+    border: none;
+    font-size: 14px;
+    background-color: #8EA1E1;
+    color: white;
+}
+
+.discord-services button::before {
+    content: "\2193";
+    margin-right: 10px;
 }
 
 
