@@ -62,8 +62,13 @@ header nav > a {
     text-align: center;
 }
 
-h1 {
+h1{
     font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 140%;
 }
 
 #cta p {
@@ -100,21 +105,16 @@ h1 {
 }
 
 section{
-    border: 1px dashed black;
-    padding-block: 20px;
-    /* background-color: black; */
-}
-
-section figure{
-    background-color: lightgoldenrodyellow;
-}
-
-section .section-text{
-    background-color: lightgreen;
+    padding-block: 100px;
 }
 
 section .img-text{
     display: flex;
+    align-items: center;
+}
+
+.section-text h2 {
+    margin-bottom: 20px;
 }
 
 section .img-text figure{
